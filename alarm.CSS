@@ -1,0 +1,102 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+#realtime-clock{
+    background: rgba(255, 0, 25, 0.479);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#realtime-clock span{
+    font-size: 5rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+/* alarm input styling */
+
+
+#alarm-input-container{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.alarm-input-group{
+    height: 60px;
+    padding: 10px;
+    border-radius: 5;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.alarm-input-group:focus,
+.alarm-input-group:active{
+    border: 1px solid rgb(0, 255, 8);
+    border-radius: 5%;
+    outline: none;
+}
+
+#alarm-title-input-box{
+    width: 90%;
+    min-width: 100px;
+    max-width: 450px;
+}
+
+#alarm-time-input-box{
+    width: 80%;
+    min-width: 100px;
+    max-width: 400px;
+    letter-spacing: 2px;
+}
+
+#alarm-submit-btn{
+   margin-left: -6px;
+   background: rgb(89, 0, 255);
+}
+
+
+
+
+
+/* alarm list styling */
+
+
+#alarm-list{
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+#alarm-list li {
+    display: flex;
+    background: rgba(255, 166, 0, 0.479);
+    margin: 2px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.list-time{
+    flex-grow: 2;
+    min-width: 120px;
+    letter-spacing: 2px;
+}
+
+.list-title{
+    flex-grow: 4;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.list-img{
+    background: rgba(255, 0, 234, 0.575);
+}
